@@ -28,4 +28,8 @@ app.use("/api", userRouter);
 app.use("/api/carts", cartRouter);
 app.use("/api/orders", orderRouter);
 
+// app.listen(process.env.PORT, () => {
+//     console.log("listen at port ");
+// })
+
 export const viteNodeApp = app;
