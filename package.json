@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "start": "node build/app.js",
+    "another-script": "you get the idea"
   },
   "keywords": [],
   "author": "",
